@@ -1,0 +1,646 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+.main{
+    background-image: url(/IMGS/master-slides-02.jpg);
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: absolute;
+    border-top: solid red 5px;
+}
+
+.nav{
+    position: relative;
+    width: 100%;
+    height: 750px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: white;
+    background-attachment: fixed;
+}
+
+.nav-logo{
+    border-radius: 10px;
+    background-color: black;
+    margin: 40px;
+    margin-left: 200px;
+    float: left;
+    transition: all 1s linear;
+}
+
+.nav-logo:hover{
+    background-color: red;
+    transition: all 1s linear;
+    transform: scale(1.2);
+}
+
+
+ul{
+    list-style: none;
+}
+
+ul li a{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 15px;
+    float: left;
+    margin: 10px;
+    margin-left: 40px;
+    margin-top: 55px;
+    text-decoration: none;
+    color: white;
+    transition: all 0.4s linear;
+}
+
+a:hover{
+    color: red;
+    transition: all 0.4s linear;
+}
+
+.welcome{
+    width: 100%;
+    margin-top: 15%;
+    text-align: center;
+    color: white;
+}
+
+
+.welcome h3{
+    width: 400px;
+    margin: auto;
+    border-radius: 30px;
+    font-family: Courgette ;
+    font-size: 60px;
+    animation-name: backwords;
+    animation-duration: 2s;
+    animation-iteration-count: 1;
+    animation-timing-function: ease-in-out;
+}
+
+@keyframes backwords {
+    from{
+        transform: scale(0);
+    }
+    
+    to{
+        transform: scale(1);
+    }
+}
+
+.welcome h1{
+    letter-spacing: 10px;
+    font-family: Poppins;
+    font-size: 90px;
+    margin: 20px;
+    animation-name: reverse;
+    animation-duration: 2s;
+    animation-iteration-count: 1;
+    animation-timing-function: ease-in-out;
+}
+
+@keyframes reverse {
+    from{
+        transform: scale(0);
+    }
+    
+    to{
+        transform: scale(1);
+    }
+}
+
+.button{
+    position: relative;
+    text-align: center;
+    margin-top: -15%;
+    margin-bottom: 6%;
+    animation-name: buttton;
+    animation-duration: 2s;
+    animation-iteration-count: 1;
+    animation-timing-function: ease-in-out;
+}
+
+@keyframes buttton {
+    from{
+        transform: scale(0);
+    }
+    
+    to{
+        transform: scale(1);
+    }
+}
+
+.btn{
+    background-color: white;
+    color: red;
+    font-size: 12px;
+    border: none;
+    border-radius: 10px;
+    width: 150px;
+    height: 40px;
+    margin-bottom: 100px;
+    cursor: pointer;
+}
+
+.btn:hover{
+    background-color: red;
+    color: white;
+    transition: all 0.4s linear;
+}
+
+.container{
+    width: 100%;
+}
+
+.container-txt{
+    text-align: center;
+    width: 25%;
+    margin: 225px 100px ;
+    float: left;
+}
+
+.container-txt h5{
+    font-size: 30px;
+    font-family: Courgette;
+    color: red;
+}
+
+.container-txt h2{
+    font-size: 50px;
+    font-family: Poppins;
+    text-transform: uppercase;
+    letter-spacing: 6px;
+}
+
+.container-txt p{
+    font-family: montserrat;
+}
+
+.container-txt button{
+    letter-spacing: 1px;
+    font-family: montserrat;
+    text-transform: uppercase;
+    background-color: transparent;
+    border: none;
+    margin: 20px;
+    cursor: pointer;
+}
+
+.container-txt button:hover{
+    color: red;
+    transition: all 0.5s ease-in-out;
+    
+}
+
+.container-img{
+    width: 29.6%;
+    float: left;
+    margin: 100px 100px 100px 300px;
+    overflow: hidden;
+    border-radius: 15px;
+}
+
+.container-img img{
+    width: 450px;
+    transition: all 0.6s linear;
+}
+
+.container-img img:hover{
+    transform: scale(1.1);
+    transition: all 0.7s linear;
+}
+
+.discover{
+    width: 100%;
+    background-image: url("/IMGS/bg-intro-01.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.discover-txt{
+    width: 100%;
+    margin: 100px 0px;
+    padding: 250px 0px;
+    text-align: center;
+}
+
+.discover-txt span{
+    color: red;
+    font-family: courgette;
+    font-size: 30px;
+    line-height: 36px;
+}
+
+.discover-txt .pat{
+    color: white;
+    font-family: poppins;
+    font-size: 50px;
+    text-transform: uppercase;
+    letter-spacing: 10px;
+    line-height: 60px;
+    font-weight: 700;
+}
+
+.cards{
+    width: 90%;
+    margin: auto;
+    overflow: hidden;
+}
+
+.cart1{
+    width: 400px;
+    overflow: hidden;
+    margin-left: 20px;
+    float: left;
+    border-radius: 20px;
+}
+
+.cart2{
+    width: 400px;
+    overflow: hidden;
+    margin-left: 20px;
+    float: left;
+    border-radius: 20px;
+}
+
+.cart3{
+    width: 400px;
+    overflow: hidden;
+    margin-left: 20px;
+    float: left;
+    border-radius: 20px;
+}
+
+.card-img{
+    width: 400px;
+    border-radius: 20px;
+    transition: all 1s linear;
+}
+
+.card-img:hover{
+    overflow: hidden;
+    transform: scale(1.07);
+    transition: all 0.5s linear;
+    -webkit-transition: all 0.5s linear;
+    -moz-transition: all 0.5s linear;
+    -ms-transition: all 0.5s linear;
+    -o-transition: all 0.5s linear;
+    -webkit-transform: scale(1.07);
+    -moz-transform: scale(1.07);
+    -ms-transform: scale(1.07);
+    -o-transform: scale(1.07);
+}
+
+.title{
+    font-family: poppins;
+    font-size: 22px;
+    letter-spacing: 3px;
+    margin-top: 20px;
+    cursor: pointer;
+    transition: all 0.4s linear;
+    -webkit-transition: all 0.4s linear;
+    -moz-transition: all 0.4s linear;
+    -ms-transition: all 0.4s linear;
+    -o-transition: all 0.4s linear;
+}
+
+.title:hover{
+    color: red;
+}
+
+.descr{
+    margin-top: 10px;
+    font-size: 15px;
+    line-height: 25.5px;
+    font-weight: 400;
+    font-family: montserrat;
+}
+
+.learn-more-btn{
+    margin-top: 20px;
+    border: none;
+    background-color: transparent;
+    font-size: 12px;
+    font-weight: 400;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    cursor: pointer;
+    transition: all 0.3s linear;
+    -webkit-transition: all 0.3s linear;
+    -moz-transition: all 0.3s linear;
+    -ms-transition: all 0.3s linear;
+    -o-transition: all 0.3s linear;
+}
+
+.learn-more-btn:hover{
+    color: red;
+}
+
+
+.menu{
+    width: 100%;
+    margin-top: 100px;
+    background-color: rgb(235, 235, 235);
+    background-size: cover;
+    background-repeat: no-repeat;
+    /* position: absolute; */
+    overflow: hidden;
+}
+
+.main0{
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    /* position: relative; */
+    overflow: hidden;
+}
+
+.discover1{
+    margin: 20px;
+    color: red;
+    font-family: courgette;
+    font-size: 30px;
+}
+
+.our-menu-txt{
+    margin: 10px;
+    font-size: 60px;
+    font-family: poppins;
+    text-transform: uppercase;
+    letter-spacing: 10px;
+    font-weight: 700;
+}
+
+.menu-imgs{
+    width: 400px;
+    border-radius: 20px;
+    transition: all 0.3s linear;
+}
+
+.menu-imgs:hover{
+    transform: scale(1.1);
+}
+
+.menu-btns{
+    position: absolute;
+    left: 30%;
+    top: 40%;
+    width: 200px;
+    height: 60px;
+    border: none;
+    background-color: white;
+    font-size: 22px;
+    font-family: poppins;
+    font-weight: 500;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    cursor: pointer;
+    border-radius: 10px;
+    opacity: 0.9;
+    transition: all 0.3s linear;
+}
+
+.menu-btns:hover{
+    background-color: red;
+    color: white;
+}
+
+.lunch{
+    border-radius: 20px;
+    overflow: hidden;
+    margin: 20px;
+    float: left;
+    position: relative;
+}
+
+.dinner{
+    margin: 20px;
+    float: left;
+    position: relative;
+    border-radius: 20px;
+    overflow: hidden;
+}
+
+.drink{
+    margin: 20px;
+    float: left;
+    position: relative;
+    border-radius: 20px;
+    overflow: hidden;
+}
+
+.starters{
+    margin: 20px;
+    float: left;
+    position: relative;
+    border-radius: 20px;
+    overflow: hidden;
+}
+
+.happy-hour{
+    margin: 20px;
+    float: left;
+    position: relative;
+    border-radius: 20px;
+    overflow: hidden;
+}
+
+.dessert{
+    margin: 20px;
+    float: left;
+    position: relative;
+    border-radius: 20px;
+    overflow: hidden;
+}
+
+.event{
+    background-image: url(/IMGS/bg-event-02.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100vh;
+    margin-top: 100px;
+    position: absolute;
+}
+
+.event-txt{
+    /* margin: 50px; */
+    padding: 50px;
+    text-align: center;
+}
+
+.event-upcom{
+    color: red;
+    font-family: courgette;
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 36px;
+}
+
+.event-title{
+    color: white;
+    font-size: 50px;
+    font-family: poppins;
+    text-transform: uppercase;
+    letter-spacing: 6px;
+    line-height: 60px;
+    font-weight: 900;
+}
+
+.event-img{
+    width: 70%;
+    height: 48.5vh;
+    background-color: white;
+    margin-top: 400px;
+    margin-left: 280px;
+    position: relative;
+    border-radius: 20px;
+    animation-name: event;
+    animation-duration: 2s;
+    animation-iteration-count: 1;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+}
+
+@keyframes event {
+
+    from{
+        transform: rotateZ(0deg);
+        -webkit-transform: rotateZ(0deg);
+        -moz-transform: rotateZ(0deg);
+        -ms-transform: rotateZ(0deg);
+        -o-transform: rotateZ(0deg);
+    }
+
+    to{
+        transform: rotateZ(360deg);
+        -webkit-transform: rotateZ(360deg);
+        -moz-transform: rotateZ(360deg);
+        -ms-transform: rotateZ(360deg);
+        -o-transform: rotateZ(360deg);
+    }
+    
+}
+
+.img-event{
+    width: 50%;
+    float: left;
+    margin-right: 10px;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+}
+
+.card-txt{
+    padding: 50px;
+    text-align: center;
+}
+
+.card-title{
+    margin-bottom: 20px;
+    font-size: 22px;
+    font-family: poppins;
+    font-weight: 500;
+    line-height: 26.5px;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+}
+
+.card-descr{
+    font-family: Montserrat;
+    font-size: 16px;
+    line-height: 25.5px;
+    font-weight: 400p;
+}
+
+.card-btn{
+    margin-top: 100px;
+    text-transform: uppercase;
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+    font-family: Montserrat;
+    font-size: 12px;
+    letter-spacing: 1px;
+    transition: all 0.4s linear;
+}
+
+.card-btn:hover{
+    color: red;
+}
+
+.reservation{
+    width: 100%;
+    margin-top: 150px;
+    background-image: url(/IMGS/pattern1.png);
+    background-repeat: repeat ;
+}
+
+.booking-txt{
+    width: 30%;
+    text-align: center;
+    /* margin-top: 50px; */
+    /* padding-top: 300px; */
+}
+
+.booking-word{
+    font-family: courgette;
+    font-size: 30px;
+    color: red;
+    font-weight: 400;
+}
+
+.booking-title{
+    font-family: poppins;
+    font-size: 50px;
+    line-height: 60px;
+    letter-spacing: 6px;
+    font-weight: 600;
+}
+
+.booking-form{
+    width: 30%;
+    padding-left: 100px;
+    margin-top: 100px;
+}
+
+.booking-img{
+    border-radius: 20px;
+    text-align: right;
+    padding-right: 200px;
+    overflow: hidden;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+}
+
+.booking-img img{
+    border-radius: 20px;
+    transition: all 1s linear;
+    -webkit-border-radius:;
+    -moz-border-radius:;
+    -ms-border-radius:;
+    -o-border-radius:;
+    -webkit-transition:;
+    -moz-transition:;
+    -ms-transition:;
+    -o-transition:;
+}
+
+.booking-img img:hover{
+    transform: scale(1.2);
+    -webkit-transform: scale(1.2);
+    -moz-transform: scale(1.2);
+    -ms-transform: scale(1.2);
+    -o-transform: scale(1.2);
+}
+
+.fix-clear{    
+    clear: both;
+}

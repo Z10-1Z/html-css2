@@ -1,0 +1,16 @@
+body{
+    background-color: chocolate;
+}
+
+.m{
+    margin: 60px 0px 80px 30px ;
+}
+
+.cart{
+    border: 3px snow solid;
+    width: 200px;
+    padding-left: 20px;
+}
+.cart p{
+    width: 20px;
+}

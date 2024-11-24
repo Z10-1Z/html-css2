@@ -1,0 +1,10 @@
+.welcome{
+    color: peru;
+    width: 50%;
+    display: inline-block;
+}
+
+.img{
+    display: inline-block;
+    width: 40%;
+}
